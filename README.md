@@ -14,6 +14,34 @@ Please feel free to contact the author should you have any queries about the acc
 
 With the help of supervised learning, this experiment will attempt to implement machine learning models for regression and classification tasks. The chosen models for regression are Linear, Lasso, and Ridge. Whereas, for classification, Logistic regression and SVM are chosen. The results reflect that the ridge and logistic regression are the main (outperforming) models for regression and classification tasks respectively. The selection of the baseline and the main model is strictly based on the evaluation of the results derived from the analysis of the metrics. Furthermore, the evaluation is supported with visualisation to better understand the working and the underlying concept of the achieved results.
 
+<h3>Experiment results</h3>
+<h4>Regression results</h4>
+<p align="center">
+  <img src="Images/Reg_img/linear r2 vs deg.png" width="320">
+  <img src="Images/Reg_img/lasso r2 vs deg.png" width="320">
+  <img src="Images/Reg_img/ridge r2 vs deg.png" width="320">  
+</p>
+<h3 align="center">Degree Analysis using R2 Score</h3>
+<p align="center">
+  <img src="Images/Reg_img/ridge r2 vs alpha.png" width="320">
+  <img src="Images/Reg_img/lasso r2 vs alpha.png" width="320">
+</p>
+<h3 align="center">Alpha Analysis using R2 Score</h3>
+
+<hr>
+<h4>Classification results</h4>
+<p align="center">
+  <img src="Images/Class_img/acc vs deg - log reg.png" width="320">
+  <img src="Images/Class_img/f1 vs deg - log reg.png" width="320">
+  <img src="Images/Class_img/acc vs c - log reg.png" width="320">
+</p>
+<h3 align="center">Analysis of parameters for logistic regression</h3>
+<p align="center">
+  <img src="Images/Class_img/gender_survival_ratio.png" width="320">
+  <img src="Images/Class_img/gender_ratio.png" width="320">
+</p>
+<h3 align="center">Gender analysis on testing data using logistic regression</h3>
+
 
 
 <h3>Conclusion</h3>
